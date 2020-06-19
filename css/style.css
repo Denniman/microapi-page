@@ -272,7 +272,7 @@ footer {
         flex-direction: column;
         align-items: center;
         height: 250vh;
-        width: 50vh;
+        width: 100vw;
     
     }
 
@@ -310,10 +310,6 @@ footer {
         font-size: .6rem;
         padding: 5px 10px;
         /* margin-right: 20em; */
-    }
-
-    .adjust{
-        margin-left: 0.6em;
     }
 
     .firstdiv {
@@ -420,28 +416,28 @@ footer {
 
     #img-last {
         margin-top: 1em;
-        margin-left: -15em; 
+        margin-left: -12em; 
         width: 7em;
     }
 
     #lasth2 {
         margin-top: 2em;
         font-size: .8rem;
-        margin-left: -9em;
+        margin-left: -2em;
         margin-right: -10em;
     }
 
     #lastp {
         font-size: .6rem;
-        margin-left: -12em;
-        margin-right: -10em;
+        margin-left: -2.6em;
+        margin-right: -15em;
     }
     
     .lastbtn {
         margin-top: -5em;
-        margin-left: -5em;
+        margin-left: 12em;
         font-size:0.6rem;
-        width: 10em; 
+        width: 100px; 
     }
 
     footer {
