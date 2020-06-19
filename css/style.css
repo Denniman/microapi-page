@@ -297,9 +297,8 @@ footer {
     }
 
     ul {
-        /* margin: auto; */
         margin-top: -4em;
-        margin-left: 2.5em;
+        margin-left: 6.8em;
     }
  
     nav ul li a.login {
@@ -434,7 +433,7 @@ footer {
     }
     
     .lastbtn {
-        margin-top: -5em;
+        margin-top: -2em;
         margin-left: 12em;
         font-size:0.6rem;
         width: 100px; 
