@@ -1,0 +1,452 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+html {
+    box-sizing: border-box;
+}
+ 
+  *, 
+  *:before, 
+  *:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff;
+    box-sizing: border-box;
+
+}
+
+header {
+    overflow: hidden;
+    background-color: #fff;
+    position: sticky;
+    position: fixed;
+    width: 100%;
+    margin: 0;
+    top: 0;
+}
+
+nav {
+    height: 20vh;
+    width: 90vw;
+    margin-top: .5em;
+    margin-left: 5em;
+}
+
+span.logo{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 1.7rem;
+    line-height: 70px;
+}
+
+ul {
+    display: flex;
+    flex-flow: row nowrap;
+    margin-top: -4.2em;
+    margin-left: 47em;
+}
+
+li {
+    list-style: none;
+    margin: 1em;
+    font-weight: normal;
+    color: #000; 
+}
+
+li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+nav ul li a.login {
+  font-size: 1.5rem;
+}
+
+nav ul li a.register {
+    font-weight: 300;
+    color: #fff;
+    background-color: #31AA52;
+    border-radius: 4px;
+    padding: 5px 40px;
+    margin-right: 20px;
+    font-size: 1.5rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10em;
+    height: 480vh;
+    width: 100vw;
+    background-color: #fff;
+}
+
+.row {
+    display: flex;
+	flex-flow: row wrap;
+    margin: 50px 75px;
+    width: 65%;
+}
+
+
+.col-1-2 {
+    flex: 0 0 92%;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.col-1-2 div.email-text {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.col-1-2 .text-content {
+    font-size: .5rem;
+    line-height: 40px;
+    justify-content: space-evenly;
+}
+
+.text-content p{
+    font-size: 1.5rem;
+    line-height: 40px;
+}
+
+#img-2{
+    float: left;
+}
+
+#img-3 {
+    float: right;
+    /* margin-top: -120px; */
+}
+
+#img4{
+    float: left;
+}
+
+#img5 {
+    float: right;
+}
+
+p.float-right {
+    display: inline;
+    font-size: .7rem;
+    margin-left: 12em;
+}
+
+h3.float-right {
+    margin-left: 0;
+}
+
+
+p.float-left {
+    font-size: .7rem;
+} 
+
+div.flut {
+    display: inline;
+}
+
+h3.float-left {
+    line-height: 0px;
+}
+
+.pricebtn {
+   margin-left: 5em;
+}
+
+#sendp {
+    margin-bottom: 5em;
+}
+
+.btn {
+    color: #fff;
+    background-color: #31AA52;
+    border-radius: 4px;
+    padding: 10px 40px;
+    margin-right: 20px;
+    font-size: .9rem;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    width: 25%;
+}
+
+.btn a {
+    text-decoration: none;
+    color: #fff;
+} 
+
+img {
+    width: 40%
+}
+
+.last-div {
+    background-color: #E5E5E5;
+    height: 45vh;
+    width: 100%;
+}
+
+#apih2 {
+    text-align: center;
+}
+
+.last-divbtn {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 20em;
+}
+
+.footer-row {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 15em;
+}
+
+.divbtn {
+    margin-top: 5em;
+}
+
+.btm {
+    width: 35%;  
+}
+
+footer {
+    background-color: #31AA52;
+    height: 40vh;
+    width: 100%;
+}
+
+#img-last {
+    width: 38%;
+    float: left;
+    margin-left: -10em;
+}
+
+#lastp {
+    /* font-weight: bold; */
+    font-size: .9rem;
+    margin-left: 9.8em;
+}
+
+.last-col {
+    margin: 0 13em;
+}
+
+#lasth2 {
+    margin-left: 5em;
+}
+
+.lastbtn {
+    margin-top: -4em;
+    margin-left: 5em;
+    border: 2px solid #fff;
+    width: 24%;
+}
+
+/* mobile screen size */
+@media only screen and (max-width: 414px) {
+    body {
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        width: 100vw;
+        box-sizing: border-box;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 250vh;
+        width: 50vh;
+    
+    }
+
+    header {
+        overflow: hidden;
+        position: sticky;
+        position: fixed;
+        width: 100%;
+        top: 0;
+    }
+
+
+    nav {
+        height: 10vh;
+        width: 100%;
+      
+    }
+
+    span.logo{
+        font-size: 1rem;
+        margin-left: -3em;
+    }
+
+    ul {
+        /* margin: auto; */
+        margin-top: -4em;
+        margin-left: 2.5em;
+    }
+ 
+    nav ul li a.login {
+        font-size: .8rem;
+      }
+
+      nav ul li a.register {
+        font-size: .6rem;
+        padding: 5px 10px;
+        /* margin-right: 20em; */
+    }
+
+    .adjust{
+        margin-left: 0.6em;
+    }
+
+    .firstdiv {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: -3em;
+    }
+
+    .row {
+        margin-top: 0 auto;
+        margin-left: 5em;
+        margin-bottom: -1em;
+    }
+
+    .email-text h3 {
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    .you-can-rely {
+        font-size: .8rem;
+    }
+
+
+    #sendp {
+        font-size: .8rem;
+        margin-bottom: 1.5em;
+    }
+
+    .btn {
+        padding: 10px 5px;
+        font-size: .7rem;
+        width: 55%;
+    }
+
+    .mailbtn {
+        float: left;
+        margin-left: -2em;
+    }
+
+    .pricebtn {
+        margin-top: -2.9em;
+        margin-right: -1em;
+        float: right;
+    }
+
+    #img-1 {
+        width: 90%;
+    }
+
+
+    .text-content p{
+        font-size: .8rem;
+        line-height: 25px;
+    }
+
+    h3 {
+        font-size: 1rem;
+    }
+
+    .last-div {
+        height: 40vh;
+        width: 100vw;
+    }
+
+    #apih2 {
+        text-align: center;
+        font-size: 1.3rem;
+    }
+    
+    .last-divbtn {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        margin-left: 1.5em;
+    }
+
+   .btm {
+    padding: 10px 0px;
+    margin-right: 20px;
+    font-size: .6rem;
+    width: 50%;
+   }
+
+    .divbtn {
+        margin-top: 2.5em;
+    }
+
+    #img-last {
+        width: 38%;
+        float: left;
+        margin-left: -10em;
+    }
+    
+    .last-col {
+        margin: 0 30em;
+    }
+
+    #lastp {
+        font-size: .9rem;
+        margin-left: 1.8em;
+    }
+
+    #img-last {
+        margin-top: 1em;
+        margin-left: -15em; 
+        width: 7em;
+    }
+
+    #lasth2 {
+        margin-top: 2em;
+        font-size: .8rem;
+        margin-left: -9em;
+        margin-right: -10em;
+    }
+
+    #lastp {
+        font-size: .6rem;
+        margin-left: -12em;
+        margin-right: -10em;
+    }
+    
+    .lastbtn {
+        margin-top: -5em;
+        margin-left: -5em;
+        font-size:0.6rem;
+        width: 10em; 
+    }
+
+    footer {
+        width: 100vw;
+    }
+
+    
+}
