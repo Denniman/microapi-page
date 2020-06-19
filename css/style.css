@@ -308,7 +308,6 @@ footer {
       nav ul li a.register {
         font-size: .6rem;
         padding: 5px 10px;
-        /* margin-right: 20em; */
     }
 
     .firstdiv {
@@ -351,7 +350,7 @@ footer {
     }
 
     .pricebtn {
-        margin-top: -2.9em;
+        margin-top: -3em;
         margin-right: -1em;
         float: right;
     }
